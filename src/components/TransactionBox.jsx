@@ -4,7 +4,7 @@ import Category from './Category';
 function TransactionBox(props) {
   return (
     <div className='flex w-11/12 max-w-screen-md max-h-96 bg-white rounded-2xl flex-col p-6 overflow-scroll shadow-xl'>
-        <h1 className='text-xl font-bold'>Transactions (Past 50)</h1>
+        <h1 className='text-xl font-bold'>Transactions (24 Months)</h1>
         <table className='table-auto border-spacing-10'>
             <thead className='text-xs text-left font-bold'>
                 <tr>
