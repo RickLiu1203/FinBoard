@@ -29,9 +29,16 @@ function App() {
   });
 
   return publicToken ? (<Dashboard publicToken={publicToken} />):(
-    <button onClick={() => open()} disabled={!ready}>
-      Connect a bank account
-    </button>
+    <div className='flex flex-col items-center justify-center h-screen gap-4 border-black'>
+      <h1 className='text-6xl font-extrabold'>FinBoard 💸</h1>
+      <button className='bg-purple-500 px-4 py-3 text-white rounded-2xl font-semibold shadow-lg hover:bg-white hover:text-purple-400 duration-300'>
+        Connect Bank Account
+      </button>
+      <button onClick={() => open()} disabled={!ready} 
+      className='bg-purple-500 px-4 py-3 text-white rounded-2xl font-semibold shadow-lg hover:bg-white hover:text-purple-400 duration-300'>
+        Site Demo
+      </button>
+    </div>
   );
 
 }
