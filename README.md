@@ -33,7 +33,7 @@ Responsive Charts
 
 <div style="display: flex; flex-wrap: wrap;">
   <img src="public/donut.png" width="400" alt="Screenshot 1">
-  <img src="public/invest.png" width="550" alt="Screenshot 2">
+  <img src="public/invest.png" width="400" alt="Screenshot 2">
 </div>
 
 
