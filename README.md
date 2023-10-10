@@ -5,10 +5,6 @@ A Financial Dashboard that Connects Directly to Your Accounts 💸
 
 Currently Works For All Major Canadian Institutions
 
-Demo Mode Available to Public, Please Contact for Access to Development Mode
-
-Sending Payments DOES NOT Work In Demo Mode, Only Dev Mode
-
 ## Features
 
 **Login**   
