@@ -9,13 +9,17 @@ Demo Mode Available to Public, Please Contact for Access to Full Website
 
 ## Features
 
-**Three Step Process:**  
-    1. Search for songs you like  
-    2. Set a parameter  
-    3. Get your recommendations
+**Login**   
+Login to the Website using Plaid API
 
-**Available Parameters:**   
-*Popularity, Energy, Danceability, Acousticness, Instrumentalness*
+Landing Page:
+![landing](/public/landing.png)
+
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="public/banks.png" width="200" alt="Screenshot 1">
+  <img src="public/login.png" width="200" alt="Screenshot 2">
+  <img src="public/accounts.png" width="200" alt="Screenshot 3">
+</div>
 
 **Same Song Inputs + Different Parameters = Tailored Recommendations**  
 
