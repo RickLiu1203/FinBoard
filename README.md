@@ -32,8 +32,8 @@ Payment Processing Feature Included
 Responsive Charts
 
 <div style="display: flex; flex-wrap: wrap;">
-  <img src="public/donut.png" width="400" height="400" alt="Screenshot 1">
-  <img src="public/invest.png" width="400" height="400" alt="Screenshot 2">
+  <img src="public/donut.png" width="400" height="375" alt="Screenshot 1">
+  <img src="public/invest.png" width="400" height="375" alt="Screenshot 2">
 </div>
 
 
