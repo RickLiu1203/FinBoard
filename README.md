@@ -16,9 +16,9 @@ Landing Page:
 ![landing](/public/landing.png)
 
 <div style="display: flex; flex-wrap: wrap;">
-  <img src="public/banks.png" width="200" alt="Screenshot 1">
-  <img src="public/login.png" width="200" alt="Screenshot 2">
-  <img src="public/accounts.png" width="200" alt="Screenshot 3">
+  <img src="public/banks.png" width="300" alt="Screenshot 1">
+  <img src="public/login.png" width="300" alt="Screenshot 2">
+  <img src="public/accounts.png" width="300" alt="Screenshot 3">
 </div>
 
 **Same Song Inputs + Different Parameters = Tailored Recommendations**  
