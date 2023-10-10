@@ -3,7 +3,7 @@ import Category from './CategoryIcon';
 
 function TransactionBox(props) {
   return (
-    <div className='flex w-11/12 max-w-screen-md max-h-96 bg-white rounded-2xl flex-col p-6 shadow-xl'>
+    <div className='flex w-2/3 h-full bg-white rounded-2xl flex-col p-6 shadow-xl'>
         <h1 className='text-xl font-bold'>Transactions (24 Months)</h1>
         <table className='table-auto border-spacing-10'>
             <thead className='text-xs text-left font-bold'>
