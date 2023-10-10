@@ -5,7 +5,7 @@ A Financial Dashboard that Connects Directly to Your Accounts 💸
 
 Currently Works For All Major Canadian Institutions
 
-Demo Mode Available to Public, Please Contact for Access to Full Website
+Demo Mode Available to Public, Please Contact for Access to Development Mode
 
 ## Features
 
@@ -16,61 +16,63 @@ Landing Page:
 ![landing](/public/landing.png)
 
 <div style="display: flex; flex-wrap: wrap;">
-  <img src="public/banks.png" width="510" alt="Screenshot 1">
-  <img src="public/login.png" width="500" alt="Screenshot 2">
-  <img src="public/accounts.png" width="500" alt="Screenshot 3">
+  <img src="public/banks.png" width="550" alt="Screenshot 1">
+  <img src="public/login.png" width="550" alt="Screenshot 2">
+  <img src="public/accounts.png" width="550" alt="Screenshot 3">
 </div>
 
-**Same Song Inputs + Different Parameters = Tailored Recommendations**  
+**View Transactional + Investments Data**  
 
-![popular](/public/popular.png)
-Above Recommendations are Only Globally Popular Tracks
+Data is Categorized and Visualized
 
-![unpopular](/public/unpopular.png)
-Above Recommendations are Only Lesser Known Tracks
+Payment Processing Feature Included
 
-**Dark Mode!!**
-![dark](/public/dark.png)
+![finboard](/public/finboard.png)
+
+Responsive Charts
+
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="public/donut.png" width="400" alt="Screenshot 1">
+  <img src="public/invest.png" width="550" alt="Screenshot 2">
+</div>
+
 
 ## Run Locally
 
 **To run this project, you will need to add the following environment variables to your .env file**
 
-`CLIENT_ID`
+`PLAID_CLIENT_ID`
 
-`CLIENT_SECRET`
+`PLAID_CLIENT_SECRET`
 
-**These can be found in the Spotify API dashboard after creating a free account**:  
-[Link to Spotify Developer Site](https://developer.spotify.com/dashboard)
+'PLAID_ENV = "development"'
+
+**These can be found in the Plaid API dashboard after creating a free account**:  
+
+[Link to Plaid API Developer Site](https://plaid.com/)
 
 
 **Clone the project**
 
 ```bash
-  git clone https://github.com/RickLiu1203/MeloMate.git
+  git clone https://github.com/RickLiu1203/FinBoard.git
 ```
 
 **Go to the project directory**
 
 ```bash
-  cd melomate
+  cd finboard
 ```
 
 **Install dependencies**
 
 ```bash
   npm install
-  pip install python-dotenv requests flask flask-cors
 ```
 
 **Start the backend**  
-Windows
 ```bash
-  python /server/server.py
-```
-Mac
-```bash
-  python3 /server/server.py
+  node ./lib/index.js
 ```
 
 **Start the server**
@@ -78,7 +80,6 @@ Mac
 ```bash
   npm run dev
 ```
-
 
 ## Author
 
